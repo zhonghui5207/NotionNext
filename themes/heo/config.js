@@ -19,13 +19,13 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与情趣知识',
   HEO_HERO_TITLE_3: 'RYAN5207.COM',
   HEO_HERO_TITLE_4: '欢迎来到',
-  HEO_HERO_TITLE_5: '我的情趣小店-Lovex's Shop',
+  HEO_HERO_TITLE_5: '我的情趣小店-Lovex‘s Shop',
   HEO_HERO_TITLE_LINK: '/shop',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '付费教程', url: '/tag/付费教程' },
+  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/bikan' },
+  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/remen' },
+  HEO_HERO_CATEGORY_3: { title: '付费教程', url: '/tag/fufei' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
