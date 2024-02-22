@@ -19,7 +19,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与情趣知识',
   HEO_HERO_TITLE_3: 'RYAN5207.COM',
   HEO_HERO_TITLE_4: '欢迎来到',
-  HEO_HERO_TITLE_5: '我的情趣小店-Lovex‘s Shop',
+  HEO_HERO_TITLE_5: '我的情趣小店-Lovex’s Shop',
   HEO_HERO_TITLE_LINK: '/shop',
 
   // 英雄区显示三个置顶分类
