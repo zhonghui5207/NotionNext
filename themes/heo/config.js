@@ -15,16 +15,16 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享两性',
-  HEO_HERO_TITLE_2: '与情趣知识',
-  HEO_HERO_TITLE_3: 'RYAN5207.COM',
+  HEO_HERO_TITLE_1: '分享男性',
+  HEO_HERO_TITLE_2: '高潮科普知识',
+  HEO_HERO_TITLE_3: '爱科普的石老湿',
   HEO_HERO_TITLE_4: '欢迎来到',
-  HEO_HERO_TITLE_5: '我的情趣小店-Lovex’s Shop',
+  HEO_HERO_TITLE_5: '高潮课堂',
   HEO_HERO_TITLE_LINK: '/shop',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '我的小店', url: '/shop' },
-  HEO_HERO_CATEGORY_2: { title: '付费教程', url: '/tag/付费教程' },
+  HEO_HERO_CATEGORY_1: { title: '高潮课堂', url: '/shop' },
+  HEO_HERO_CATEGORY_2: { title: '会员专享', url: '/tag/会员专享' },
   HEO_HERO_CATEGORY_3: { title: '热门文章', url: '/tag/热门文章' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
@@ -42,7 +42,7 @@ const CONFIG = {
     // '🤖️ 数码科技爱好者',
     // '🧱 团队小组发动机'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: '', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
