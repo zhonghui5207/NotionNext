@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    { title: '欢迎来到我的博客', url: 'https://www.lovexmale.com' },
     // { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
@@ -42,7 +42,7 @@ const CONFIG = {
     // '🤖️ 数码科技爱好者',
     // '🧱 团队小组发动机'
   ],
-  HEO_INFO_CARD_URL: 'https://blog.lovexstory.cn', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://www.lovexmale.com', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
