@@ -13,7 +13,7 @@ class MyDocument extends Document {
             <Html lang={BLOG.LANG}>
                 <Head>
                 <link rel='icon' href= {`${BLOG.BLOG_FAVICON}`} />
-                  
+
                   {/* 霞鹜文楷字体预加载优化 */}
                   <link
                     rel="preload"
@@ -22,7 +22,7 @@ class MyDocument extends Document {
                     type="font/ttf"
                     crossOrigin="anonymous"
                   />
-                  
+
                   {/* 预加载字体 */}
                   {BLOG.FONT_AWESOME && <>
                       <link rel='preload' href={BLOG.FONT_AWESOME} as="style" crossOrigin="anonymous" />
