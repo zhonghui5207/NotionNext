@@ -68,6 +68,10 @@
         "tailwindcss": "^3.3.2",
         "webpack-bundle-analyzer": "^4.5.0"
     },
+    "engines": {
+        "node": ">=22.0.0",
+        "npm": ">=10.0.0"
+    },
     "resolutions": {
         "axios": ">=0.21.1"
     },
