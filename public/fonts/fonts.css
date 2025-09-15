@@ -1,0 +1,30 @@
+/* 霞鹜文楷字体 - 优化版本 */
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('./LXGWWenKai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 优化字体加载，避免闪烁 */
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FE30-FE4F; /* 中文字符范围 */
+}
+
+@font-face {
+  font-family: 'LXGWWenKai';
+  src: url('./LXGWWenKai-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF, U+FE30-FE4F;
+}
+
+/* 字体预加载提示 */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --font-loading: 'LXGWWenKai is loading...';
+  }
+}
+
+/* 字体加载完成后的优化 */
+.fonts-loaded {
+  font-feature-settings: "kern" 1, "liga" 1;
+}

@@ -50,43 +50,36 @@ const BLOG = {
   FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
-    // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
-    'https://fonts.googleapis.com/css?family=Bitter&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
+    '/fonts/fonts.css' // 本地霞鹜文楷字体，大幅提升加载速度
   ],
-  // 无衬线字体 例如'"LXGW WenKai"'
+  // 无衬线字体 - 优化的字体栈，霞鹜文楷优先
   FONT_SANS: [
-    // '"LXGW WenKai"',
-    '"PingFang SC"',
+    '"LXGWWenKai"',          // 霞鹜文楷 - 优雅的中文字体
+    '"SF Pro Text"',         // macOS 系统字体
+    '"PingFang SC"',         // macOS 中文字体
     '-apple-system',
     'BlinkMacSystemFont',
-    '"Hiragino Sans GB"',
-    '"Microsoft YaHei"',
-    '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-    '"Segoe UI"',
-    '"Noto Sans SC"',
-    'HarmonyOS_Regular',
+    '"Segoe UI"',           // Windows 现代字体
+    '"Microsoft YaHei UI"', // Windows 中文字体
+    '"Roboto"',             // Android 字体
     '"Helvetica Neue"',
     'Helvetica',
-    '"Source Han Sans SC"',
     'Arial',
     'sans-serif',
-    '"Apple Color Emoji"'
+    '"Apple Color Emoji"',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"'
   ],
-  // 衬线字体 例如'"LXGW WenKai"'
+  // 衬线字体 - 统一使用霞鹜文楷，保持一致性
   FONT_SERIF: [
-    // '"LXGW WenKai"',
-    'Bitter',
-    '"Noto Serif SC"',
-    'SimSun',
+    '"LXGWWenKai"',         // 霞鹜文楷 - 中英文通用
+    '"SF Pro Text"',        // macOS fallback
     '"Times New Roman"',
     'Times',
     'serif',
+    '"Apple Color Emoji"',
     '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-    '"Apple Color Emoji"'
+    '"Segoe UI Symbol"'
   ],
   FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
