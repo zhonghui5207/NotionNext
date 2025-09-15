@@ -12,12 +12,14 @@ export default function Newsletter() {
       e.preventDefault()
       const email = document.querySelector('#newsletter').value
       subscribeToNewsletter(email).then(response => {
-        console.log('Subscription succeeded:', response)
+        if (process.env.NODE_ENV === 'development') {
+          console.log('Subscription succeeded:', response)
+        }
         // 在此处添加成功订阅后的操作
         setSuccess(true)
       })
         .catch(error => {
-          console.error('Subscription failed:', error)
+          console.error('Subscription failed:', error) // 保留错误日志
           // 在此处添加订阅失败后的操作
         })
     }

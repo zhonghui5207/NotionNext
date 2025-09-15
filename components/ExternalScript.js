@@ -22,7 +22,9 @@ const ExternalScript = (props) => {
     script.setAttribute(key, value)
   })
   document.head.appendChild(script)
-  console.log('加载外部脚本', props, script)
+  if (process.env.NODE_ENV === 'development') {
+    console.log('加载外部脚本', props, script)
+  }
   return null
 }
 

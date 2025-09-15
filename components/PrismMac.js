@@ -196,7 +196,9 @@ function renderPrismMac(codeLineNumbers) {
   try {
     Prism.highlightAll()
   } catch (err) {
-    console.log('代码渲染', err)
+    if (process.env.NODE_ENV === 'development') {
+      console.log('代码渲染', err)
+    }
   }
 
   const codeToolBars = container?.getElementsByClassName('code-toolbar')
